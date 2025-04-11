@@ -76,4 +76,6 @@ const ObraDetalhes = ({ obra }) => {
   );
 };
 
+
+
 export default ObraDetalhes; 
