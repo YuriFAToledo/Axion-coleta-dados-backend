@@ -130,4 +130,6 @@ const ObraDetalhes = ({ obra, className }) => {
   );
 };
 
+
+
 export default ObraDetalhes; 
