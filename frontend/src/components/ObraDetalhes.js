@@ -92,7 +92,7 @@ const ObraDetalhes = ({ obra, className }) => {
       <InfoItem label="Data de Cadastro" value={obra.Data_Cadastro} />
       <InfoItem label="Data de Atualização" value={obra.Data_Atualizacao} />
       <InfoItem label="Data de Habilitação" value={obra.Data_Habilitacao} />
-      <InfoItem label="Previsão de Término" value={obra.Previsao_Termino_Fase_Etapa} />
+      <InfoItem label="Previsão de Término Fase/Etapa" value={obra.Previsao_Termino_Fase_Etapa} />
       <InfoItem label="Previsão de Entrega" value={formatPrevisaoEntrega(obra.Previsao_Entrega)} />
       <InfoItem label="Status de Atualização" value={obra.Status_Atualizacao} />
       <InfoItem label="Status de Cadastro" value={obra.Status_Cadastro} />
